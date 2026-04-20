@@ -3,7 +3,7 @@ Self-Pruning Neural Network on CIFAR-10
  How to Run
 pip install torch torchvision matplotlib numpy
 
-Run on Google Colab with T4 GPU — takes around 10-12 minutes.
+Run on Google Colab with T4 GPU
 
  How It Works
 I created a custom layer called PrunableLinear that adds a learnable 
