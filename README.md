@@ -1,3 +1,5 @@
+
+TREDENCE CASE STUDY
 Self-Pruning Neural Network on CIFAR-10
 
  How to Run:
