@@ -1,11 +1,11 @@
 Self-Pruning Neural Network on CIFAR-10
 
- How to Run
+ How to Run:
 pip install torch torchvision matplotlib numpy
 
 Run on Google Colab with T4 GPU
 
- How It Works
+ How It Works(SOLUTION)
 I created a custom layer called PrunableLinear that adds a learnable 
 gate to every weight. The gate is a value between 0 and 1 (using sigmoid). 
 During training, an L1 penalty pushes these gates toward zero, effectively 
